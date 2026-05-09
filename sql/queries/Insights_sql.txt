@@ -1,0 +1,36 @@
+-- Média do ICI por cluster
+SELECT 
+    Cluster,
+    AVG(ICI) AS media_ici
+FROM clientes
+GROUP BY Cluster;
+
+-- Quantidade de clientes por cluster
+SELECT 
+    Cluster,
+    COUNT(CustomerID) AS total_clientes
+FROM clientes
+GROUP BY Cluster;
+
+-- Top clientes por ICI
+SELECT 
+    CustomerID,
+    ICI
+FROM clientes
+ORDER BY ICI DESC
+LIMIT 10;
+
+-- Clientes críticos
+SELECT 
+    CustomerID,
+    ICI,
+    Recomendacao
+FROM clientes
+WHERE ICI < 40;
+
+-- Frequência média por cluster
+SELECT 
+    Cluster,
+    AVG(Frequency) AS frequencia_media
+FROM clientes
+GROUP BY Cluster;
