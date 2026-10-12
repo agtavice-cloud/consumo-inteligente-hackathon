@@ -82,4 +82,4 @@ Esses comandos utilizam os dados já preparados, sem precisar executar novamente
 
 **Agta Pereira** · Análise de dados e automação · Atendimento remoto em todo o Brasil.
 
-[LinkedIn](https://www.linkedin.com/in/agta-silva) · [GitHub](https://github.com/agtavice-cloud)
+[Portfólio](https://agtapereira.com.br/) · [LinkedIn](https://www.linkedin.com/in/agta-silva) · [GitHub](https://github.com/agtavice-cloud)
