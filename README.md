@@ -61,7 +61,7 @@ python -m streamlit run app/app.py
 
 Abra o endereço local informado pelo Streamlit. A cópia do CSV é necessária porque a versão atual do aplicativo procura esse arquivo na pasta de execução.
 
-Esses comandos usam a base já processada e não reexecutam os notebooks. As instruções foram conferidas com a estrutura e o código; a execução completa do aplicativo não foi validada nesta revisão de documentação.
+Esses comandos utilizam os dados já preparados, sem precisar executar novamente os notebooks. As instruções foram conferidas com a estrutura e o código; a execução completa do aplicativo não foi validada nesta revisão de documentação.
 
 ## Como explorar
 
